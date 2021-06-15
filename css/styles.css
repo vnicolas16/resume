@@ -1,0 +1,31 @@
+/* this "style" will affect the elemets I decide to */
+/*check the default styles for each browser*/
+body {
+  background-color: #EAF6F6;
+  /* could be name or hex code */
+}
+
+hr {
+  /* NOTE: background-color: white;  With the current configuration this background-color is not needed as we only need 1 line not a box */
+  border-style: none;
+  /* NOTE: default border-style: inset; */
+  border-top: dotted;
+  /* NOTE: This overides the previous command for the top border only */
+  border-color: grey;
+  border-width: 5px;
+  width: 5%; /* NOTE: can be un px or % */
+
+  /* NOTE: Another way to do it manually is:
+  border-style: dotted none none none;  --> The 3 "none" applies to Left, right and donw respectivelly
+  height: 2px;  default is 0, we didnt use this height because we and a single line not a box*/
+
+}
+
+img {
+  height: 125px;
+}
+
+h1, h3
+{
+  color: rgb(0,150,255);
+    }
